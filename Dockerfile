@@ -11,7 +11,7 @@ RUN apt-get update \
   apt-get install -y apt-transport-https \
   apt-update \
   apt-get install -y build-essential \
-  apt-get install -y dotnet-runtime-3.1
+  apt-get install -y dotnet-runtime-3.1 \
   apt-get clean \
   dpkg -i packages-microsoft-prod.deb \
   mkdir -p /etc/dns/ && \
