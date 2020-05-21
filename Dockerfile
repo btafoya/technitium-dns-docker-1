@@ -7,9 +7,9 @@ ADD https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.d
 
 RUN apt-get update \
   add-apt-repository -y universe \
-  apt-update \
+  apt-get update \
   apt-get install -y apt-transport-https \
-  apt-update \
+  apt-get update \
   apt-get install -y build-essential \
   apt-get install -y dotnet-runtime-3.1 \
   apt-get clean \
