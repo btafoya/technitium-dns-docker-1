@@ -6,6 +6,7 @@ ADD https://download.technitium.com/dns/DnsServerPortable.tar.gz /
 ADD https://packages.microsoft.com/config/ubuntu/18.04/packages-microsoft-prod.deb /
 
 RUN apt-get update && \
+  apt-get install software-properties-common \
   add-apt-repository -y universe && \
   apt-get update && \
   apt-get install -y apt-transport-https && \
