@@ -1,3 +1,7 @@
+# Unofficial Technitium DNS Docker Container  
+
+A docker container with the latest Technitium DNS Server running on Ubuntu 18.04. 
+
 ## Docker Run Example
 
 ```
